@@ -26,4 +26,5 @@ public class AreaTriang_1 {
      * ALT+SHIFT+F = INDENTACION o Format
      * Algoritmo-1
      */
+    // Por: MRodzDirect, El Original 😉
 }

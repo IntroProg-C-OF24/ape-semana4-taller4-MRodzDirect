@@ -15,5 +15,6 @@ public class GastoHijos_2 {
         gastoHijo3 = sc.nextDouble();
         gastoTotal = gastoHijo1 + gastoHijo2 + gastoHijo3;
         System.out.println("Los costos totales de los tres hijos son: "+ gastoTotal);
+        // Por: MRodzDirect, El Original 😉
     }
 }
