@@ -13,7 +13,7 @@ public class AreaTriang_1 {
      double altTri;
      double areaTri;
      Scanner sc = new Scanner(System.in); // new scanner (System.in) = Declarar e Inicializar
-        System.out.println("Ingresar la base del triangulo: ");
+     System.out.println("Ingresar la base del triangulo: ");
      baseTri = sc.nextDouble();
      System.out.println("Ingresar la altura del triangulo: ");
      altTri = sc.nextDouble();
