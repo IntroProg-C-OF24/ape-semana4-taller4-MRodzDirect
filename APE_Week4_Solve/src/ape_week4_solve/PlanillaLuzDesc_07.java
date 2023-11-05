@@ -14,6 +14,7 @@ public class PlanillaLuzDesc_07 {
     if (edad>=65){
     System.out.println("Ingrese el descuento (%) que ofrece su plan por mayoria de edad");
     desc = sc.nextInt();
+    // check formula regarding kilHo as monthly cost, not hourly
     totalDesc = (kilHo*kilSpend)*(1-(desc*0.01));
         System.out.println("El costo de su planilla de Luz es "+ totalDesc + "$");
     // Alternative: totalDesc = (kilHo*kilSpend)-(kilHo*kilSpend*desc)
@@ -23,6 +24,6 @@ public class PlanillaLuzDesc_07 {
     System.out.println("El costo de su planilla de Luz es "+ totalNoDesc + "$");
             }
     
-    
+    sc.close();
     }
 }
