@@ -1,6 +1,6 @@
 package ape_week4_solve;
 import java.util.Scanner;
-public class SvcDigitalesCost_08 {
+public class A08_SvcDigitalesCost {
     public static void main(String[] args) {
         double netflix, spotify, youtube, dropbox, totalNoDesc, totalDesc;
         int edad, desc;
@@ -27,5 +27,6 @@ public class SvcDigitalesCost_08 {
             System.out.println("Su total a pagar es: "+ totalNoDesc + " $");
         }
          sc.close();
+         // Por: MRodzDirect 😉
 }
 }

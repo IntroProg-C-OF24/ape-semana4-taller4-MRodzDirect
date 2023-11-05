@@ -1,6 +1,6 @@
 package ape_week4_solve;
 import java.util.Scanner;
-public class AreaPoliMinVar_09 {
+public class A09_AreaPoliMinVar {
     public static void main(String[] args) {
         double altTri, anchoCuad, areaTotal ;
         Scanner sc = new Scanner(System.in);
@@ -10,6 +10,8 @@ public class AreaPoliMinVar_09 {
         altTri = sc.nextDouble();
         areaTotal = ((anchoCuad*altTri)+(3*((anchoCuad*altTri)/2)+(Math.pow(anchoCuad,2)))) ;
         System.out.println("El area del Poligono es: "+ areaTotal +" cm");
-        sc.close();        
+        sc.close();     
+        
+        // Por: MRodzDirect 😉
     }
 }

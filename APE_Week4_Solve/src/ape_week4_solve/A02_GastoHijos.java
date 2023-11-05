@@ -1,8 +1,8 @@
-
+ 
 package ape_week4_solve;
 import java.util.Scanner;
 
-public class GastoHijos_2 {
+public class A02_GastoHijos {
     
     public static void main(String[] args) {
         double  gastoHijo1, gastoHijo2, gastoHijo3, gastoTotal;

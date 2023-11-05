@@ -1,6 +1,6 @@
 package ape_week4_solve;
 import java.util.Scanner;
-public class CostPC_05 {
+public class A05_CostPC {
     public static void main(String[] args) {
         double cpu, mouse, keyboard, screen, costTotal;
         Scanner sc = new Scanner(System.in);
@@ -14,5 +14,6 @@ public class CostPC_05 {
         screen = sc.nextDouble();
         costTotal = cpu + mouse + keyboard + screen ;
         System.out.println("La computadora que desea comprar cuesta: "+ costTotal);
+   // Por: MRodzDirect 😉
     }
 }

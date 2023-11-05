@@ -1,6 +1,6 @@
 package ape_week4_solve;
 import java.util.Scanner;
-public class PlanillaLuzDesc_07 {
+public class A07_PlanillaLuzDesc {
     public static void main(String[] args) {
     int desc, edad;
     double kilHo, kilSpend, totalDesc, totalNoDesc;
@@ -25,5 +25,6 @@ public class PlanillaLuzDesc_07 {
             }
     
     sc.close();
+    // Por: MRodzDirect 😉
     }
 }

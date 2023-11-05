@@ -1,6 +1,6 @@
 package ape_week4_solve;
 import java.util.Scanner;
-public class TablaMult2al6_3 {
+public class A03_TablaMult2al6 {
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
         int num1, mult0, mult1, mult2, mult3, mult4, mult5, mult6, mult7, mult8, mult9, mult10, mult11, mult12, solve;
@@ -50,7 +50,7 @@ public class TablaMult2al6_3 {
             System.out.println(num1 + " x "+ mult12 +" = " + solve);
         } else {
             System.out.println("El número ingresado no está en el rango válido.");
-            
+            // Por: MRodzDirect 😉
         }
     }
 }

@@ -1,7 +1,7 @@
 // En este ejercicio asumimos que los minutos consumidos y el costo por minuto son redondeados, es decir son enteros. (Por proposito de practica con variable int)
 package ape_week4_solve;
 import java.util.Scanner;
-public class CostPlanillaTelf_04 {
+public class A04_CostPlanillaTelf {
     public static void main(String[] args) {
         int costMin, minuGast, costTotal;
         
@@ -12,6 +12,6 @@ public class CostPlanillaTelf_04 {
         minuGast = sc.nextInt();
         costTotal = costMin*minuGast ;
         System.out.println("El valor de su planilla para este mes es: "+ costTotal);
-      // Por: MRodzDirect, El Original 😉         
+      // Por: MRodzDirect 😉         
     }
 }

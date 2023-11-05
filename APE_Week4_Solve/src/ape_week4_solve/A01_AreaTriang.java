@@ -6,7 +6,7 @@ Los datos deben ser pedidos al usuario.
 
 package ape_week4_solve;
 import java.util.Scanner;
-public class AreaTriang_1 {
+public class A01_AreaTriang {
 
     public static void main(String[] args) {
      double baseTri;
